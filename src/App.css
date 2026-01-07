@@ -1,0 +1,41 @@
+.movie-list-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+}
+
+.movie-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; 
+  border: none;
+  border-radius: 10px;
+}
+
+.movie-card {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    background: white;
+    color: black;
+    gap: 10px;
+    padding: 16px;
+    margin: 20px auto; 
+}
+
+.movie-content p:first-child{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.genre-tag {
+  padding: 4px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #EAAC99; /* default */
+  color: #000;
+  font-weight: 400;
+  margin-left: 2px;
+}
