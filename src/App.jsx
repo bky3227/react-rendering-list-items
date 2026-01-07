@@ -9,11 +9,7 @@ function App() {
 
         {movies.map((item) => (
           <div className="movie-card" key={item.title}>
-            <img
-              className="movie-image"
-              src={item.image}
-              alt={item.title}
-            />
+            <img className="movie-image" src={item.image} alt={item.title} />
 
             <div className="movie-content">
               <p className="movie-title">Title: {item.title}</p>
